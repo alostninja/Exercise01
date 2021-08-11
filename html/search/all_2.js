@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['readandprintchar_3',['readAndPrintChar',['../_ex01_801_8c.html#a42b597c003bb38f13fb9f4f851e0fc8c',1,'readAndPrintChar():&#160;Ex01.01.c'],['../_ex01_801_8h.html#a42b597c003bb38f13fb9f4f851e0fc8c',1,'readAndPrintChar():&#160;Ex01.01.c']]]
+  ['fixid_12',['FixID',['../_ex01_806_8h.html#a0619e9c9f42c3cf1650fe15d0e4e04c6',1,'Ex01.06.c']]]
 ];
