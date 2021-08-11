@@ -1,0 +1,50 @@
+\hypertarget{_ex01_806_8h}{}\doxysection{Ex01.06.h File Reference}
+\label{_ex01_806_8h}\index{Ex01.06.h@{Ex01.06.h}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{_ex01_806_8h_a0619e9c9f42c3cf1650fe15d0e4e04c6}{Fix\+ID}} (int entered\+Number)
+\item 
+int $\ast$ \mbox{\hyperlink{_ex01_806_8h_aa724b5d9f02c8f7f5cd3c9a5f875012c}{Seperate\+Integer8}} (int integer)
+\item 
+int \mbox{\hyperlink{_ex01_806_8h_ae991e80c26f0547c91af7a7e5bd53c13}{Get\+Digit}} (int integer, int position)
+\item 
+int \mbox{\hyperlink{_ex01_806_8h_ab778b6e9ac6532580425f750f20235df}{Luhn\+Sum}} (int $\ast$int\+Array)
+\item 
+int \mbox{\hyperlink{_ex01_806_8h_a51f86914664ba77dc96b0b9328e856a1}{Exponent}} (int base, int power)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_ex01_806_8h_a51f86914664ba77dc96b0b9328e856a1}\label{_ex01_806_8h_a51f86914664ba77dc96b0b9328e856a1}} 
+\index{Ex01.06.h@{Ex01.06.h}!Exponent@{Exponent}}
+\index{Exponent@{Exponent}!Ex01.06.h@{Ex01.06.h}}
+\doxysubsubsection{\texorpdfstring{Exponent()}{Exponent()}}
+{\footnotesize\ttfamily int Exponent (\begin{DoxyParamCaption}\item[{int}]{base,  }\item[{int}]{power }\end{DoxyParamCaption})}
+
+Helper function to calculate exponents \mbox{\Hypertarget{_ex01_806_8h_a0619e9c9f42c3cf1650fe15d0e4e04c6}\label{_ex01_806_8h_a0619e9c9f42c3cf1650fe15d0e4e04c6}} 
+\index{Ex01.06.h@{Ex01.06.h}!FixID@{FixID}}
+\index{FixID@{FixID}!Ex01.06.h@{Ex01.06.h}}
+\doxysubsubsection{\texorpdfstring{FixID()}{FixID()}}
+{\footnotesize\ttfamily int Fix\+ID (\begin{DoxyParamCaption}\item[{int}]{entered\+Number }\end{DoxyParamCaption})}
+
+Given 8-\/digit ID, calculates check digit for valid 9-\/digit ID using the Luhn algorithm. Returns check digit for valid 9-\/digit ID \mbox{\Hypertarget{_ex01_806_8h_ae991e80c26f0547c91af7a7e5bd53c13}\label{_ex01_806_8h_ae991e80c26f0547c91af7a7e5bd53c13}} 
+\index{Ex01.06.h@{Ex01.06.h}!GetDigit@{GetDigit}}
+\index{GetDigit@{GetDigit}!Ex01.06.h@{Ex01.06.h}}
+\doxysubsubsection{\texorpdfstring{GetDigit()}{GetDigit()}}
+{\footnotesize\ttfamily int Get\+Digit (\begin{DoxyParamCaption}\item[{int}]{integer,  }\item[{int}]{position }\end{DoxyParamCaption})}
+
+Given an integer and position, returns the digit in the specific position \mbox{\Hypertarget{_ex01_806_8h_ab778b6e9ac6532580425f750f20235df}\label{_ex01_806_8h_ab778b6e9ac6532580425f750f20235df}} 
+\index{Ex01.06.h@{Ex01.06.h}!LuhnSum@{LuhnSum}}
+\index{LuhnSum@{LuhnSum}!Ex01.06.h@{Ex01.06.h}}
+\doxysubsubsection{\texorpdfstring{LuhnSum()}{LuhnSum()}}
+{\footnotesize\ttfamily int Luhn\+Sum (\begin{DoxyParamCaption}\item[{int $\ast$}]{int\+Array }\end{DoxyParamCaption})}
+
+Calculates the sum of digits in an integer array, based off the Luhn algorithm \mbox{\Hypertarget{_ex01_806_8h_aa724b5d9f02c8f7f5cd3c9a5f875012c}\label{_ex01_806_8h_aa724b5d9f02c8f7f5cd3c9a5f875012c}} 
+\index{Ex01.06.h@{Ex01.06.h}!SeperateInteger8@{SeperateInteger8}}
+\index{SeperateInteger8@{SeperateInteger8}!Ex01.06.h@{Ex01.06.h}}
+\doxysubsubsection{\texorpdfstring{SeperateInteger8()}{SeperateInteger8()}}
+{\footnotesize\ttfamily int$\ast$ Seperate\+Integer8 (\begin{DoxyParamCaption}\item[{int}]{integer }\end{DoxyParamCaption})}
+
+Given an 8-\/digit integer, returns an array with each digit 
