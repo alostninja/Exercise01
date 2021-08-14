@@ -1,4 +1,5 @@
-#pragma once
+#ifndef EX5
+#define EX5
 
 #include <stdio.h>
 
@@ -28,3 +29,4 @@ int LuhnSum(int *intArray);
 * Helper function to calculate exponents
 */
 int Exponent(int base, int power);
+#endif

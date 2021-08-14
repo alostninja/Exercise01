@@ -1,4 +1,5 @@
-#pragma once
+#ifndef EX8
+#define EX8
 
 #include <stdio.h>
 
@@ -14,3 +15,4 @@ int *SecondMostExtremeNums();
 * Reevaluates the most extreme numbers in 'extremes' array, given newNumber
 */
 void* CalculateExtremes(int newNumber, int *extremes);
+#endif

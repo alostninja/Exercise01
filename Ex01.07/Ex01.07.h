@@ -1,4 +1,5 @@
-#pragma once
+#ifndef EX7
+#define EX7
 
 #include <stdio.h>
 
@@ -8,3 +9,4 @@
 * Recursively reads number from 
 */
 void RecursivePrintRead();
+#endif

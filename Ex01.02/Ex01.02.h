@@ -1,4 +1,5 @@
-#pragma once
+#ifndef EX2
+#define EX2
 
 #include <stdio.h>
 
@@ -19,3 +20,4 @@ int PrintCapitalizedChar();
 * @return Capitalized character
 */
 char Capitalized(char character);
+#endif

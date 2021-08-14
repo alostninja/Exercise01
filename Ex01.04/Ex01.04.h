@@ -1,4 +1,5 @@
-#pragma once
+#ifndef EX4
+#define EX4
 
 #include <stdio.h>
 
@@ -23,3 +24,4 @@ void PrintLine(int spaceCount, int starCount);
 * @param charCount Number of times to repeat
 */
 void PrintMultiple(char character, int charCount);
+#endif
